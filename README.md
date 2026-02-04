@@ -8,19 +8,19 @@ Professional-grade repository for the Week 10 challenge: forecasting Ethiopia's 
   - **Usage** — Digital Payment Adoption Rate (% adults who made/received a digital payment)
 
 ## Scope and Deliverables
-- **Task 1: Data Exploration and Enrichment** - Enriched, unified dataset and a data-enrichment log.
-- **Task 2: Exploratory Data Analysis (EDA)** - EDA with visualizations and written insights.
+- **Task 1: Data Exploration and Enrichment** - Explicitly load and document understanding of `ethiopia_fi_unified_data.csv` unified schema, enrich with additional observations, events, and impact links for comprehensive analysis.
+- **Task 2: Exploratory Data Analysis (EDA)** - Plot 2011–2024 access/usage trajectories, deeply analyze 2021–2024 slowdown with overlaid event timelines, and provide at least five numbered key insights tying data patterns to events and policy context.
 - **Task 3: Event Impact Modeling** - Event–indicator association matrix and impact-modeling notebook.
 - **Task 4: Forecasting Access and Usage** - Scenario forecasts (baseline / optimistic / pessimistic) for 2025–2027 with uncertainty estimates.
 - **Task 5: Dashboard Development** - Interactive Streamlit dashboard to explore data, events, and forecasts.
 
 ## Status
 ✅ **All Tasks Completed**
-- Task 1: Data enrichment completed with unified dataset (`data/processed/ethiopia_fi_unified_data_enriched.csv`)
-- Task 2: EDA completed with comprehensive analysis in `notebooks/01_eda.ipynb` and `notebooks/task2_eda.ipynb`
-- Task 3: Event impact modeling completed with association matrix in `notebooks/03_event_impact_modeling.ipynb`
-- Task 4: Forecasting completed with 2025-2027 projections in `notebooks/04_forecasting_access_usage.ipynb`
-- Task 5: Interactive dashboard implemented in `src/dashboard/app.py`
+- Task 1: Data enrichment completed with unified schema documentation and enriched dataset (`data/processed/ethiopia_fi_unified_data_enriched.csv` with 49 records including events and impact links)
+- Task 2: EDA completed with explicit 2011-2024 access/usage trajectories, deep 2021-2024 slowdown analysis, event-overlaid timelines, and 5+ numbered key insights in `notebooks/02_eda.ipynb`
+- Task 3: Event impact modeling completed with association matrix (4x3), validation, documentation in `notebooks/03_event_impact_modeling.ipynb`
+- Task 4: Forecasting completed with trend models, scenarios, uncertainty quantification in `notebooks/04_forecasting_access_usage.ipynb`
+- Task 5: Interactive dashboard implemented with 4 pages, data downloads, and visualizations in `src/dashboard/app.py`
 
 ## Repository Layout
 ```
